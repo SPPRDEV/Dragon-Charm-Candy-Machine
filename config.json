@@ -1,0 +1,44 @@
+{
+  "number": 18888,
+  "symbol": "DCNFT",
+  "sellerFeeBasisPoints": 0,
+  "isMutable": true,
+  "isSequential": true,
+  "creators": [
+    {
+      "address": "EGXPgLED84jE1jj6U8HteEGXJFAqLnGmDsYbJpZHK2C2",
+      "share": 100
+    }
+  ],
+  "uploadMethod": "pinata",
+  "awsConfig": null,
+  "nftStorageAuthToken": null,
+  "shdwStorageAccount": null,
+  "pinataConfig": {
+    "jwt": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySW5mb3JtYXRpb24iOnsiaWQiOiIyNDBkYTBjYS02OTA5LTQ2OWEtYWY4NS03NDE2YjVmOTc1OTYiLCJlbWFpbCI6ImRpbHVrYW5nZWxvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaW5fcG9saWN5Ijp7InJlZ2lvbnMiOlt7ImlkIjoiRlJBMSIsImRlc2lyZWRSZXBsaWNhdGlvbkNvdW50IjoxfV0sInZlcnNpb24iOjF9LCJtZmFfZW5hYmxlZCI6ZmFsc2UsInN0YXR1cyI6IkFDVElWRSJ9LCJhdXRoZW50aWNhdGlvblR5cGUiOiJzY29wZWRLZXkiLCJzY29wZWRLZXlLZXkiOiIwZGM5NzczZmNiNGEwMTQxY2UyMiIsInNjb3BlZEtleVNlY3JldCI6ImM4MzdkMzMyMmQ1MjVkMDkwZDViYjU3MWNlYmM0YWU3MGExNDNkYTNmOWFmMjJkYjc2MjdhNGNlMGY0ZmQxZTQiLCJpYXQiOjE3MTQwMjkzODh9.HHmo7Wf3WsWzM6RMvH3uIdelaJvEsLDmcUT5yXs2PT0",
+    "apiGateway": "https://api.pinata.cloud",
+    "contentGateway": "https://gateway.pinata.cloud",
+    "parallelLimit": 2
+  },
+  "hiddenSettings": null,
+  "guards": {
+    "default": {
+     
+    },
+    "groups": [
+     
+      {
+        "label": "public",
+        "guards": {
+          "startDate": {
+            "date": "2022-10-20 18:00:00 +0000"
+          },
+          "solPayment": {
+            "value": 0.001,
+            "destination": "5YvYhLboQc2zjSwYA8tjfpudRHrPHjPKAmhf6xrftT6W"
+          }
+        }
+      }
+    ]
+  }
+}
